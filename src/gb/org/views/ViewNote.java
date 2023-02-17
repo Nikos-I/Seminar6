@@ -2,7 +2,7 @@ package gb.org.views;
 
 import gb.org.Note;
 import gb.org.Notes;
-import gb.org.fileoperation.SQLOperation;
+import gb.org.datawork.SQLOperation;
 
 import java.sql.SQLException;
 import java.util.Scanner;

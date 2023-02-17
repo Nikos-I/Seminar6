@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a0c460-3fcb-481a-8779-4fce3de84567" name="Changes" comment="Seminar6 intermediate commit 1">
-      <change afterPath="$PROJECT_DIR$/src/gb/org/views/Fields.java" afterDir="false" />
+    <list default="true" id="12a0c460-3fcb-481a-8779-4fce3de84567" name="Changes" comment="Seminar6 intermediate 2 commit Осталось - запись изменений в БД">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/Persister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/fileoperation/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/fileoperation/SQLOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/utils/PhoneException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/utils/Validate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +86,7 @@
       <workItem from="1676379131644" duration="1298000" />
       <workItem from="1676471381689" duration="3104000" />
       <workItem from="1676543669030" duration="13241000" />
-      <workItem from="1676623614299" duration="5567000" />
+      <workItem from="1676623614299" duration="6243000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar6 intermediate commit 1">
       <created>1676577387016</created>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676577387016</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Seminar6 intermediate 2 commit Осталось - запись изменений в БД">
+      <created>1676631294734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676631294734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +123,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Seminar6 init commit" />
     <MESSAGE value="Seminar6 intermediate commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar6 intermediate commit 1" />
+    <MESSAGE value="Seminar6 intermediate 2 commit Осталось - запись изменений в БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seminar6 intermediate 2 commit Осталось - запись изменений в БД" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gb/org/fileoperation/SQLOperation.java</url>
+          <url>file://$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

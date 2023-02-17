@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a0c460-3fcb-481a-8779-4fce3de84567" name="Changes" comment="Seminar6 init commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_40_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite-jdbc-3.40.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/Persister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/fileoperation/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/fileoperation/SQLOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/notes.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/utils/PhoneException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/utils/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/views/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" afterDir="false" />
+    <list default="true" id="12a0c460-3fcb-481a-8779-4fce3de84567" name="Changes" comment="Seminar6 intermediate commit 1">
+      <change afterPath="$PROJECT_DIR$/src/gb/org/views/Fields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "last_opened_file_path": "D:/GDisk/GeekBraims/Java/JavaSeminars/OOP/Seminar6/src/gb/org/views",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GDisk/GeekBraims/Java/JavaSeminars/OOP/Seminar6/src/gb/org/views&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GDisk\GeekBraims\Java\JavaSeminars\OOP\Seminar6\src\gb\org\views" />
@@ -99,8 +82,17 @@
       <workItem from="1676313781872" duration="3035000" />
       <workItem from="1676379131644" duration="1298000" />
       <workItem from="1676471381689" duration="3104000" />
-      <workItem from="1676543669030" duration="11413000" />
+      <workItem from="1676543669030" duration="13241000" />
+      <workItem from="1676623614299" duration="5567000" />
     </task>
+    <task id="LOCAL-00001" summary="Seminar6 intermediate commit 1">
+      <created>1676577387016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676577387016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Seminar6 init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar6 init commit" />
+    <MESSAGE value="Seminar6 intermediate commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seminar6 intermediate commit 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -129,11 +122,6 @@
           <url>file://$PROJECT_DIR$/src/gb/org/fileoperation/SQLOperation.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gb/org/views/ViewNote.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

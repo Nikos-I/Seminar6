@@ -36,7 +36,7 @@ public class Notes {
         System.out.print("\n");
     }
 
-    //    Добавление заметки в список
+    //    Добавление заметку в список
     public void addNote(Note note) {
         notes.add(note);
     }

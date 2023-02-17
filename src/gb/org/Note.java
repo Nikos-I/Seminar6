@@ -1,5 +1,9 @@
 package gb.org;
 
+import gb.org.views.Fields;
+
+import java.lang.reflect.Field;
+
 public class Note {
 
     private String idNote;
@@ -32,12 +36,26 @@ public class Note {
         return idNote;
     }
 
+    public int getIdInt() {
+        return Integer.parseInt(idNote);
+    }
+
     public String getTextNote() {
         return textNote;
     }
 
     public void setTextNote(String textNote) {
         this.textNote = textNote;
+    }
+
+    public Note editNote(Note edtNote, Fields field, String valueField) {
+
+        if (field == Fields.TEXT) {
+            edtNote.setTextNote(valueField);
+        } else if (field == Fields.NAME) {
+            edtNote.setNameNote(valueField);
+        }
+        return edtNote;
     }
 
     @Override

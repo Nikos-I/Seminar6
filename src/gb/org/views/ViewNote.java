@@ -27,7 +27,7 @@ public class ViewNote {
                 switch (com) {
                     case CREATE -> create();
                     case READ -> read();
-//                    case UPDATE -> update();
+                    case UPDATE -> update();
                     case LIST -> list();
                     case HELP -> showHelp();
                     case DELETE -> delete();
@@ -44,33 +44,34 @@ public class ViewNote {
         System.out.print(dispNote.toString());
     }
 
-//    private void update() throws Exception {
-//        String userid = prompt("Идентификатор пользователя: ");
-//        String field_name = prompt("Какое поле изменить (FIO,NAME,TELEPHONE): ").toUpperCase();
-//        String param = null;
-//        if (Fields.valueOf(field_name) == Fields.TELEPHONE) {
-//            param = catchTelephone(param);
-//            if (param == null) {
-//                return;
-//            }
-//        } else {
-//            param = prompt("Введите новое значение: ");
-//        }
-//        User _user = userController.readUser(userid);
-//        userController.updateUser(_user, Fields.valueOf(field_name.toUpperCase()), param);
-//    }
+    private void update() throws Exception {
+        String idNote = prompt("Идентификатор пользователя: ");
+        String field_name = prompt("Какое поле изменить (NAME,TEXT): ").toUpperCase();
+        String param = prompt("Введите новое значение: ");
+        Note dispNote = listNotes.readNote(idNote);
+        Fields fld = Fields.valueOf(String.valueOf(Fields.valueOf(field_name.toUpperCase())));
+        Note finalDispNote = dispNote.editNote(dispNote, fld, param);
+        listNotes.delNote(finalDispNote.getId());
+        listNotes.notes.add(finalDispNote);
+    }
 
-    private void delete(){
+    private void delete() {
         String userid = prompt("Идентификатор заметки: ");
         listNotes.delNote(userid);
     }
 
-    private void list() throws Exception {
+    private void list() {
         listNotes.listNotes();
     }
 
     private void create() {
-        String idNote = String.valueOf(Integer.parseInt(listNotes.notes.get(listNotes.notes.size() - 1).getId())+1);
+        int nextNote = 0;
+        for (Note n : listNotes.notes) {
+            if (n.getIdInt() > nextNote) {
+                nextNote = n.getIdInt();
+            }
+        }
+        String idNote = String.valueOf(nextNote + 1);
         String nameNote = prompt("Название: ");
         String textNote = prompt("Текст заметки: ");
         Note newNote = new Note(idNote, nameNote, textNote);

@@ -8,7 +8,7 @@ public interface Operation {
 
     public Note displayNote(String id);
 
-    public void editNote(String id);
+    public void updateNote(Note note);
 
     public void delNote(String id);
 

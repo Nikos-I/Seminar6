@@ -72,8 +72,19 @@ public class SQLOperation implements Operation {
 
 
     @Override
-    public void editNote(String id) {
-
+    public void updateNote(Note note) {
+        String sqlExpr = "UPDATE notes SET nameNote = ?, textNote = ? WHERE idNote = ?";
+        PreparedStatement statement = null;
+        try {
+            statement = this.connection.prepareStatement(sqlExpr);
+            statement.setObject(1, note.getNameNote());
+            statement.setObject(2, note.getTextNote());
+            statement.setObject(3, note.getId());
+            // Выполняем запрос
+            statement.execute()
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

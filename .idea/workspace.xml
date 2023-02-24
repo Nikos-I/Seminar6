@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12a0c460-3fcb-481a-8779-4fce3de84567" name="Changes" comment="Seminar6 intermediate 2 commit Осталось - запись изменений в БД">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/Persister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/Report.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/fileoperation/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/fileoperation/SQLOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/utils/PhoneException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/org/utils/Validate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/datawork/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/org/notes.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/notes.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/org/views/ViewNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +83,11 @@
       <workItem from="1676379131644" duration="1298000" />
       <workItem from="1676471381689" duration="3104000" />
       <workItem from="1676543669030" duration="13241000" />
-      <workItem from="1676623614299" duration="6243000" />
+      <workItem from="1676623614299" duration="6951000" />
+      <workItem from="1676642564156" duration="31000" />
+      <workItem from="1676708153969" duration="5000" />
+      <workItem from="1676721387509" duration="599000" />
+      <workItem from="1677259491259" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar6 intermediate commit 1">
       <created>1676577387016</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676631294734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Seminar6 intermediate 2 commit Осталось - запись изменений в БД">
+      <created>1676631757418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676631757418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,11 @@
           <url>file://$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gb/org/datawork/SQLOperation.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

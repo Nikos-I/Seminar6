@@ -39,6 +39,7 @@ public class ViewNote {
     }
 
     private void read() throws Exception {
+        listNotes = operation.readAllNotes();
         String id = prompt("Идентификатор заметки: ");
         Note dispNote = listNotes.readNote(id);
         System.out.print(dispNote.toString());
@@ -53,14 +54,18 @@ public class ViewNote {
         Note finalDispNote = dispNote.editNote(dispNote, fld, param);
         listNotes.delNote(finalDispNote.getId());
         listNotes.notes.add(finalDispNote);
+        operation.updateNote(finalDispNote);
+
     }
 
     private void delete() {
         String userid = prompt("Идентификатор заметки: ");
         listNotes.delNote(userid);
+        operation.delNote(userid);
     }
 
     private void list() {
+        listNotes = operation.readAllNotes();
         listNotes.listNotes();
     }
 
@@ -75,8 +80,11 @@ public class ViewNote {
         String nameNote = prompt("Название: ");
         String textNote = prompt("Текст заметки: ");
         Note newNote = new Note(idNote, nameNote, textNote);
-        listNotes.addNote(newNote);
+//        listNotes.addNote(newNote);
+        operation.addNote(newNote);
+        listNotes = operation.readAllNotes();
     }
+
 
     private void showHelp() {
         System.out.println("Список команд:");
